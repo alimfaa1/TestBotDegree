@@ -86,7 +86,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "🔹 500 جنيه = إنشاء البوت لمدة شهرين\n"
             "🎁 خصم 50% لفترة محدودة للمدارس الحكومية 🏫\n\n"
             "📞 للتواصل وتجربة الخدمة: 01128648325\n"
-            "💡 جرب الخدمة دلوقتي ووفّر وقتك وريح نفسك من وجع الدماغ!\n\n"
         )
         await update.message.reply_text(final_message)
 
