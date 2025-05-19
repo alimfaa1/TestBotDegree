@@ -87,7 +87,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "🎁 خصم 50% لفترة محدودة للمدارس الحكومية 🏫\n\n"
             "📞 للتواصل وتجربة الخدمة: 01128648325\n"
             "💡 جرب الخدمة دلوقتي ووفّر وقتك وريح نفسك من وجع الدماغ!\n\n"
-            "#نتيجتك_في_بوت #مدارس_ذكية #تليجرام_للمدارس #ذكاء_وتعليم"
         )
         await update.message.reply_text(final_message)
 
